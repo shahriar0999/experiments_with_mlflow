@@ -19,9 +19,9 @@ mlflow.set_experiment("model_registry_random_forest")
 # experment tracking using mlflow
 
 params = {
-    "n_estimators": [90, 110],
+    "n_estimators": [120, 150, 200],
     "criterion": ["gini"],
-    "max_depth": [11, 13, 15]
+    "max_depth": [8, 10]
 }
 
 # perform grid search
